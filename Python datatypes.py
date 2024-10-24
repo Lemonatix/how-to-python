@@ -43,4 +43,4 @@ x = memoryview(bytes(5))
 # Nonetype -
 x = None
 
-print(x)
+print(x) # prints the last defined x
