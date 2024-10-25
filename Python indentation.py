@@ -20,5 +20,5 @@ a=2
 if a ==2:
     print("a is equal to 2")
     if a % 2 == 0:
-        print("a is even") # 2 Statement, both in an if argument
+        print("a is even") # 2 Statements, both in an if argument
 
