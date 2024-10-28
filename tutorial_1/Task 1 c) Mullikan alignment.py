@@ -9,7 +9,7 @@ def Mullikan_Electronegativity(el):
         return (el.ElectronAffinity + el.IonizationEnergy) / 2
     return None
 
-# Select elements of interest (example elements with known ElectronAffinity and IonizationEnergy attributes)
+# Select elements of interest
 selected_elements = [H, He, Na, Fe, Au, Ca, Y, Mg, Mn, F, Ag, O, N, Cl, Br, S, C]
 
 # Prepare lists for class and Mulliken electronegativities
@@ -44,9 +44,8 @@ for el, adjusted_mul, class_en in zip(selected_elements, adjusted_mulliken_elect
 plt.plot([min(class_electronegs), max(class_electronegs)],
          [min(class_electronegs), max(class_electronegs)], 'k--', label='y=x (Perfect Alignment)')
 
-# Labels and legend
 plt.xlabel("Class Electronegativity")
 plt.ylabel("Adjusted Mulliken Electronegativity")
 plt.legend(fontsize=8)
-plt.title("Adjusted Mulliken Electronegativity vs Class Electronegativity")
+plt.title("Mulliken Electronegativity vs Class Electronegativity")
 plt.show()
