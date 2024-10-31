@@ -1,3 +1,4 @@
+### Miniprojekt 6
 class Element:
     def __init__(self, massArgument: float, nameArgument: str, densityArgument: float):
         self.mass = massArgument
@@ -48,7 +49,7 @@ try:
 except ValueError:
     print("Die für Kelvin angegebene Wert war fehlerhaft")
 
-# Miniprojekt 7
+### Miniprojekt 7
 names = []
 for name in element_names:
     if name[-1] == "n":
@@ -59,7 +60,7 @@ for name in element_names:
 names = [name for name in element_names] # ist dasselbe wie oben
 names = [name for name in element_names if name[-1] == "n"]
 
-# Miniprojekt 8
+### Miniprojekt 8
 import numpy as np
 from numpy import * # beide Wege funktionieren, um das ganze Package zu importieren
 import matplotlib.pyplot as plt # oder: from matplotlib import pyplot as plt
@@ -85,7 +86,7 @@ lab3 = [23.2, 23.5, 21.1, 26.7, 20.4, 22.15, 24.01, 23.44]
 data = np.array([lab1, lab2, lab3])
 print(data)
 
-# Miniprojekt 9: Einfache Statistik
+### Miniprojekt 9: Einfache Statistik
 avg_per_day = np.mean(data, axis=0)
 avg_per_lab = np.mean(data, axis=1)
 
