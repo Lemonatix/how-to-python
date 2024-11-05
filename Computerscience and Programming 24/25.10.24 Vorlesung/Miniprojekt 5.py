@@ -1,15 +1,20 @@
-def int(self, massArgument: float, nameArgument: str, densityArgument: float):
-    self.mass = massArgument
-    self.name = nameArgument
-    self.density = densityArgument
+class Element:
+    def __init__(self, nameArgument: str, massArgument: float, densityArgument: float):
+        self.name = nameArgument
+        self.mass = massArgument  # assuming this is the molar mass in g/mol
+        self.density = densityArgument  # density in g/L or similar units
 
-def molar_density(self) -> float:
-    molar_mass = self.mass_u # 1u = g/mol
-    return self.density / molar_mass
+    def molar_density(self) -> float:
+        # Calculates the molar density as density / molar mass
+        return self.density / self.mass
 
-def mass_for_mol(self, moles: float) -> float:
-    molar_mass = self.mass_u
-    return moles * molar_mass
+    def mass_for_mol(self, moles: float) -> float:
+        # Calculates the mass for a given number of moles
+        return moles * self.mass
+
+# Example usage:
+nice = Element("Helium", 4.12, 2)  # Adjusted arguments
+print(nice.molar_density())
 
 element_names = ["Wasserstoff", "Helium", "Lithium", "Beryllium", "Bor", "Kohlenstoff", "Stickstoff", "Sauerstoff", "Fluor", "Neon"]
 print(element_names[0])
