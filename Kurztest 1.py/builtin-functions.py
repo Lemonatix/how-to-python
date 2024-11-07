@@ -19,6 +19,7 @@ callable() # checks if an object is callable
 chr() # returns character specifie by given unicode point
 
 classmethod() # function used to create/specify a class method in class definition
+# Use @staticmethod only when the method doesn’t need self, cls, or any instance attributes initialized by __init__
 
 compile() # function used to compile a source code into executable code
 
