@@ -19,7 +19,7 @@ class Laptop:
     def start():
         print("Laptop started")
 
-    @staticmethod
+    @staticmethod # Use @staticmethod only when the method doesn’t need self, cls, or any instance attributes initialized by __init__
     def restart(self):
         print('Laptop is restarting')
 
@@ -32,6 +32,9 @@ laptop1 = Laptop()
 laptop1.name = 'Thinkpad X1'
 laptop1.processor = 'Intel Core i9'
 laptop1.details()
+
+Laptop.start()
+Laptop.restart(laptop1)
 
 # accessing properties and methods of class
 '''
