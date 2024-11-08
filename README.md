@@ -16,44 +16,15 @@ Follow these instructions to clone this repository on your local machine. I will
 
 ### Cloning the Repository
 
-#### Windows
-
-1. Open **Git Bash** (or Command Prompt if Git is added to your PATH).
-2. Navigate to the directory where you want to clone the project.
-3. Use the following command:
-
-   ```bash
-   git clone https://github.com/username/repository-name.git
-   ```
-
-4. Navigate into the cloned directory:
-
-   ```bash
-   cd repository-name
-   ```
-
-#### macOS
-
-1. Open **Terminal**.
-2. Navigate to the directory where you want to clone the project.
-3. Use the following command:
-
-   ```bash
-   git clone https://github.com/username/repository-name.git
-   ```
-
-4. Navigate into the cloned directory:
-
-   ```bash
-   cd repository-name
-   ```
-
-> Replace `https://github.com/username/repository-name.git` with the actual repository URL.
-
-#### Linux
+#### Linux/Windows/macOS
 
 1. Open a terminal.
-2. Navigate to the directory where you want to clone the project.
+2. Navigate to the directory where you want to clone the project. Either in your explorer/file manager, i.e for linux:
+
+   ```bash
+   cd /home/user/My Python projects
+   ```
+
 3. Use the following command:
 
    ```bash
@@ -65,7 +36,6 @@ Follow these instructions to clone this repository on your local machine. I will
    ```bash
    cd repository-name
    ```
-
 
 ### Opening the Project in VS Code
 
