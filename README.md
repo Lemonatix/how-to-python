@@ -47,11 +47,6 @@ Follow these instructions to clone this repository on your local machine. I will
    - Go to `View` > `Terminal` to open an integrated terminal in VS Code.
    - The terminal will start in your project’s root directory, where you can run commands like `git status` or any project-specific scripts.
 
-### Additional Information
-
-- **Running the Project**: If there are any specific instructions for running or building the project, include them here.
-- **Dependencies**: List any dependencies or extensions required for the project.
-
 ### Contributing
 
 If you would like to contribute, please follow these steps:
@@ -60,7 +55,3 @@ If you would like to contribute, please follow these steps:
 3. Make your changes and commit them: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin feature-name`.
 5. Submit a pull request.
-
-### License
-
-This project is licensed under the [MIT License](LICENSE).
