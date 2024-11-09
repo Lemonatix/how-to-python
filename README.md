@@ -1,4 +1,4 @@
-# How-to-pyton
+# How-to-python
 
 This project lays a foundation for the usage and utilities of the python programming language. It is like a course that you can go through at your own speed. 
 As I create this course, I am solidifying my knowledge about python and hope that you are able to learn the language a bit. 
