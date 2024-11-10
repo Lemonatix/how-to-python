@@ -53,7 +53,7 @@ If you would like to contribute, please follow these steps:
 1. Fork this repository.
 2. Create a new branch: `git checkout -b some-name`.
 3. Make your changes and commit them: `git commit -m 'adds some features'`.
-4. Push to the branch: `git push origin feature-name`.
+4. Push to the branch: `git push origin some-name`.
 5. Submit a pull request.
 
 Thank you in advance and have fun coding!
