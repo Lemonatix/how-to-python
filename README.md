@@ -1,18 +1,17 @@
 # How-to-python
 
-This project lays a foundation for the usage and utilities of the python programming language. It is like a course that you can go through at your own speed. 
-As I create this course, I am solidifying my knowledge about python and hope that you are able to learn the language a bit. 
-
+This project lays a foundation for the usage and utilities of python. It is like a course that you can go through at your own speed. 
+As I create this course, I am solidifying my knowledge about python. I hope that you will be able to learn and apply python after going through this course. 
 ## Getting Started
 
-Follow these instructions to clone this repository on your local machine. I will explain how to get set it up in VSCode, any other IDE shoud be similar though.
+Follow these instructions to clone this repository on your local machine. I will explain how to get set it up in VSCode, any other IDE should be similar.
 
 ### Prerequisites
 
 1. **Git** - Make sure you have Git installed on your machine.  
    - [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you haven't already.
-2. **Visual Studio Code** - Download and install VS Code if you haven’t yet.  
-   - [Download VS Code](https://code.visualstudio.com/Download)
+2. **Visual Studio Code** - Download and install VSCode if you haven’t yet.  
+   - [Download VSCode](https://code.visualstudio.com/Download)
 
 ### Cloning the Repository
 
@@ -22,22 +21,23 @@ Follow these instructions to clone this repository on your local machine. I will
 2. Navigate to the directory where you want to clone the project. Either in your explorer/file manager, i.e for linux:
 
    ```bash
-   cd /home/user/My Python projects
+   cd /home/user/my-python-project
    ```
 
 3. Use the following command:
 
    ```bash
-   git clone https://github.com/username/repository-name.git
+   git clone https://github.com/Lemonatix/how-to-python.git
    ```
-
-4. Navigate into the cloned directory:
-
+   
+sidenote: you copy the repository link on the <> Code button
+If you use SSH, just use
    ```bash
-   cd repository-name
+   git clone git@github.com:Lemonatix/how-to-python.git
    ```
+but you can also copy this in the <> Code tab.
 
-### Opening the Project in VS Code
+### Opening the Project in VSCode
 
 1. **Open VSCode**.
 2. **Open Folder**:
@@ -51,7 +51,9 @@ Follow these instructions to clone this repository on your local machine. I will
 
 If you would like to contribute, please follow these steps:
 1. Fork this repository.
-2. Create a new branch: `git checkout -b feature-name`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+2. Create a new branch: `git checkout -b some-name`.
+3. Make your changes and commit them: `git commit -m 'adds some features'`.
 4. Push to the branch: `git push origin feature-name`.
 5. Submit a pull request.
+
+Thank you in advance and have fun coding!
