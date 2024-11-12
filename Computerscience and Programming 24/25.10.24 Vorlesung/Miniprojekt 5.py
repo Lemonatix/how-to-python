@@ -42,6 +42,7 @@ print(element_names.__len__())
 element_names.append(popped) # instead of popped in the parantheses: element_names.append("Bor") is also possible and has the same effect
 print(element_names)
 print(element_names.__len__())
+len(element_names)
 
 
 lol = [element_names, element_masses, element_densities]
