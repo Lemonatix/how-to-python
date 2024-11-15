@@ -64,4 +64,4 @@ If you would like to contribute, please follow these steps:
 
 Thank you in advance and have fun coding!
 
-note: This course was created with the help of [Python Examples](pythonexamples.org/python/).
+note: This course was created with the help of [Python Examples](https://pythonexamples.org/python/).
