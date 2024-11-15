@@ -61,3 +61,5 @@ If you would like to contribute, please follow these steps:
 5. Submit a pull request.
 
 Thank you in advance and have fun coding!
+
+note: This course was created with the help of [Python Examples](pythonexamples.org/python/).
