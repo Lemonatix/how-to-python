@@ -4,7 +4,8 @@ This project lays a foundation for the usage and utilities of python. It is like
 As I create this course, I am solidifying my knowledge about python. I hope that you will be able to learn and apply python after going through this course. 
 
 note: Feel free to still compile the code yourself and check the result, even if a comment with the result it given.
-Also: If anything needs more explanation feel free to open an issue, discussion or contact me directly (via the email referenced on my profile).
+
+Also: If anything needs more explanation feel free to open an issue, discussion or contact me directly (via the email referenced on my profile). Or contribute directly (see bottom of README).
 
 ## Getting Started
 
@@ -35,6 +36,7 @@ Follow these instructions to clone this repository on your local machine. I will
    ```
    
 sidenote: you copy the repository link on the <> Code button
+
 If you use SSH, just use
    ```bash
    git clone git@github.com:Lemonatix/how-to-python.git
