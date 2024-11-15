@@ -36,6 +36,7 @@ Follow these instructions to clone this repository on your local machine. I will
    ```
    
 sidenote: you copy the repository link on the <> Code button
+
 If you use SSH, just use
    ```bash
    git clone git@github.com:Lemonatix/how-to-python.git
