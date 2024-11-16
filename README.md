@@ -34,14 +34,12 @@ Follow these instructions to clone this repository on your local machine. I will
    ```bash
    git clone https://github.com/Lemonatix/how-to-python.git
    ```
-   
-sidenote: you copy the repository link on the <> Code button
-
-If you use SSH, just use
+   or with SSH:
    ```bash
    git clone git@github.com:Lemonatix/how-to-python.git
    ```
-but you can also copy this in the <> Code tab.
+   
+sidenote: you copy these links on the <> Code button
 
 ### Opening the Project in VSCode
 
