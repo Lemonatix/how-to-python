@@ -39,7 +39,7 @@ Follow these instructions to clone this repository on your local machine. I will
    git clone git@github.com:Lemonatix/how-to-python.git
    ```
    
-You copy these command lines on the <> Code button aswell.
+You can also copy these shell commands on the <> Code button.
 
 ### Opening the Project in VSCode
 
