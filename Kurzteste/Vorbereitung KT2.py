@@ -6,7 +6,7 @@ mat = np.zeros([10, 10])
 for i in range(10):
     for j in range(10):
         if i == j+1 or i+1 == j:
-            mat[i, j]= 1
+            mat[i, j] = 1
 print(mat)
 
 # für bestimmte Positionen
@@ -21,7 +21,7 @@ n,m,k = 256, 256, 3
 mat2 = np.zeros([n,m,k])
 for n_ in range(n):
     for m_ in range(m):
-        mat2[n_,m_,:] = np.random.rand(1)
+        mat2[n_,m_,:] = np.random.rand(1) # mit k = 3 ist das ein RGB Bild
 
 plt.imshow(mat2)
 plt.show() # falls keine ipynb Datei 
