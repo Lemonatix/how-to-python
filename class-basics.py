@@ -42,7 +42,7 @@ object.property
 object.method([arguments])
 
 object.property = somevalue
-variable1 = object.propery
+variable1 = object.property
 '''
 
 # another example with another magic function: __add__()
