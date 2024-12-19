@@ -65,4 +65,5 @@ Thank you in advance and have fun coding!
 ## Acknowledgments
 
 Some parts of this project are inspired by the Programming and Data Science course taught by Prof. H. S. Stein at TUM. All code and materials are my own implementation based on some of the concepts covered in the lecture series.
+
 This course was also created with the help of [Python Examples](https://pythonexamples.org/python/).
