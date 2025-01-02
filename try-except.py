@@ -23,8 +23,8 @@ except ZeroDivisionError: # if this would not be in the code, we get the error: 
 print(c)
 
 # extended example
-x = input('Enter numenator : ')
-y = input('Enter denomenator : ')
+x = input('Enter numenator: ')
+y = input('Enter denomenator: ')
 
 try: # for this example, enter integers in terminal
     a = int(x)

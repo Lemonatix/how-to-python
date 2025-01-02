@@ -12,12 +12,12 @@ print('a ** b :', (a ** b)) #Arithmetic Exponentiation
 # Comparison Operators
 a = 5
 b = 2
-print('a == b :', (a == b))  #Comparison Equal to
-print('a != b :', (a != b))  #Comparison Not Equal to
-print('a > b  :', (a > b))   #Comparison Greater than
-print('a < b  :', (a < b))   #Comparison Less than
-print('a >= b :', (a >= b))  #Comparison Greater than or Equal to
-print('a <= b :', (a <= b))  #Comparison Less than or Equal to
+print('a == b :', (a == b)) #Comparison Equal to
+print('a != b :', (a != b)) #Comparison Not Equal to
+print('a > b  :', (a > b))  #Comparison Greater than
+print('a < b  :', (a < b))  #Comparison Less than
+print('a >= b :', (a >= b)) #Comparison Greater than or Equal to
+print('a <= b :', (a <= b)) #Comparison Less than or Equal to
 
 # Logical Operators
 a = True
@@ -43,15 +43,15 @@ else:
 # Membership Operators
 a = 'apple'
 b = ['apple', 'banana', 'cherry']
-print('a in b     :', (a in b))      #membership in
-print('a not in b :', (a not in b))  #membership not in
+print('a in b     :', (a in b))     #membership in
+print('a not in b :', (a not in b)) #membership not in
 
 # Bitwise Operators
 a = 5
 b = 2
-print('a & b  :', (a & b))   #bitwise AND
-print('a | b  :', (a | b))   #bitwise OR
-print('a ^ b  :', (a ^ b))   #bitwise XOR
-print('  ~ b  :', (~ b))     #bitwise NOT
-print('a << b :', (a << b))  #bitwise Left Shift
-print('a >> b :', (a >> b))  #bitwise Right Shift
+print('a & b  :', (a & b))  #bitwise AND
+print('a | b  :', (a | b))  #bitwise OR
+print('a ^ b  :', (a ^ b))  #bitwise XOR
+print('  ~ b  :', (~ b))    #bitwise NOT
+print('a << b :', (a << b)) #bitwise Left Shift
+print('a >> b :', (a >> b)) #bitwise Right Shift

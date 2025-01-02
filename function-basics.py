@@ -18,7 +18,7 @@ result = add(4, 8, 2)
 print("Result: ", result)
 
 # function with arbitrary arguments
-def add(*args):
+def add(*args): # * is used to create a tuple for each positional argument
     result = 0
     for x in args:
         result += x

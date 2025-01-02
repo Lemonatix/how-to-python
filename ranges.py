@@ -7,9 +7,9 @@ Genereal Definition:
 
 # for the built-in function the general syntax is:
 '''
-range(stop)
-range(start, stop)
-range(start, stop, step)
+range(stop) -> if one argument is taken
+range(start, stop) -> if two arguments are taken
+range(start, stop, step) -> if three arguments are taken
 '''
 
 my_range1 = range(10) # range with specific stop

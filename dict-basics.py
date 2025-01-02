@@ -10,7 +10,7 @@ print(myDictionary)
 print(type(myDictionary)) # check object type
 
 for key, value in myDictionary.items():
-    print(key, ":", value)
+    print(key, ":", value) # key is in front of : and value is after :
 
 # list of dictionaries
 myList = [
@@ -35,5 +35,4 @@ values = ['Alice', 25, 'New York']
 
 # Convert lists to dictionary
 dictionary = dict(zip(keys, values))
-
 print(dictionary)

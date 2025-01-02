@@ -3,13 +3,18 @@ print("Hello World!")
 
 print("hello world") # This is also a comment
 
-# Print("Hello World!")
-print("Welcome to Python")
+print("Welcome to Python.")
 
 '''
 this is a
-multi-line string and serves as a comment
+multi-line comment, that can serve as a comment
 '''
+
+"""
+this is a
+multi-line string that can serve as a comment
+Multi-line strings are also known a as docstring
+"""
 
 ### Multiple hashtags for comments are possible
 # Comments are ignoted by the python interpreter 
