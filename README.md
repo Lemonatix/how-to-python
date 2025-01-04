@@ -3,13 +3,13 @@
 This project lays a foundation for the usage and utilities of python. It is like a course that you can go through at your own speed. 
 As I create this course, I am solidifying my knowledge about python. I hope that you will be able to learn and apply python after going through this course. 
 
-note: Feel free to still compile the code yourself and check the result, even if a comment with the result it given.
+note: Feel free to still compile the code yourself and check the result, even if a comment with the result is given.
 
 Also: If anything needs more explanation feel free to open an issue, discussion or contact me directly (via the email referenced on my profile). Or contribute directly (see bottom of README).
 
 ## Getting Started
 
-Follow these instructions to clone this repository on your local machine. I will explain how to get set it up in VSCode, any other IDE should be similar.
+Follow these instructions to clone this repository on your local machine. I will explain how to set it up in VSCode, any other IDE should be similar.
 
 ### Prerequisites
 
@@ -46,7 +46,7 @@ You can also copy these shell commands on the <> Code button.
 1. **Open VSCode**.
 2. **Open Folder**:
    - Go to `File` > `Open Folder...` (on macOS, this will be `File` > `Open...`).
-   - Navigate to the directory where you cloned the repository, select it, and open it in VS Code.
+   - Navigate to the directory where you cloned the repository, select it and open it in VSCode.
 3. **Open Integrated Terminal** (optional):
    - Go to `View` > `Terminal` to open an integrated terminal in VS Code.
    - The terminal will start in your project’s root directory, where you can run commands like `git status` or any project-specific scripts.
@@ -64,6 +64,6 @@ Thank you in advance and have fun coding!
 
 ## Acknowledgments
 
-Some parts of this project are inspired by the Programming and Data Science course taught by Prof. H. S. Stein at TUM. All code and materials are my own implementations based on some of the concepts and premade files from and covered by Prof. Stein in the lecture series. I changed and extended some code from the lectures to the extend I thought is relevant.
+Some parts of this project are inspired by the Programming and Data Science course taught by Prof. H. S. Stein at TUM. All code and materials are my own implementations based on some of the concepts and premade files from and covered by Prof. Stein in the lecture series. I changed and extended some code from the lectures to the extent I thought is relevant and helpful.
 
 This course was also created with the help of [Python Examples](https://pythonexamples.org/python/).
