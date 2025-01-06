@@ -25,7 +25,7 @@ chemical_data = [
     ("AgI", "Yellow"),
     ("NiSO4", "Green"),
     ("CoCl2", "Pink"),
-    ("Cu(NO_3)2", "Blue-Green"),
+    ("Cu(NO3)2", "Blue-Green"),
     ("MnO2", "Black"),
     ("K2Cr2O7", "Orange"),
     ("BaSO4", "White"),
