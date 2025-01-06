@@ -58,5 +58,5 @@ for formula, color in chemical_data:
     pdf.cell(80, 10, formula, 1, 0, 'C')
     pdf.cell(110, 10, color, 1, 1, 'C')
 
-file_path = "/home/mmr/how-to-python/All_Chemical_Compounds_and_Colors.pdf"
+file_path = "/home/mmr/how-to-python/chem_python/All_Chemical_Compounds_and_Colors.pdf"
 pdf.output(file_path)
