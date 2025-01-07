@@ -4,7 +4,7 @@ def get_material_summary():
     url = "https://api.materialsproject.org/materials/summary/"
     headers = {
         "accept": "application/json",
-        "X-API-KEY": "YOU_API_KEY"
+        "X-API-KEY": "your_api_key"
     }
     params = {
         "material_ids": "mp-34",
