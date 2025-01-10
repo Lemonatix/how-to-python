@@ -48,3 +48,5 @@ print(int(35.88)) # gives 35
 print(float(35)) # gives 35.0
 
 print(str(35.82)) # gives 35.82
+
+print(bool(1))
