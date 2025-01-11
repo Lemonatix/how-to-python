@@ -1,5 +1,5 @@
 import numpy as np
-# Varianz ausrechnen
+
 # funktionsdefinitionen & argsort
 
 # average from scratch
@@ -9,7 +9,7 @@ for num in list1:
 
 print("Mean / Average is: " + str(average))    
 
-# mit numpy
+# with numpy
 print(np.mean(list1))
 
 # as function
@@ -51,3 +51,25 @@ def median_calc(number):
 data1 = [49, 60, 59, 20, 42, 36, 54, 83, 7, 8]
 med = median_calc(data1)
 print(med)
+
+# calculate variance
+
+results = [-14.82381293, -0.29423447, -13.56067979, -1.6288903, -0.31632439,
+          0.53459687, -1.34069996, -1.61042692, -4.03220519, -0.24332097]
+
+print("Variance is: " + str(np.var(results)))
+
+# from scratch variance
+m = sum(results) / len(results)
+var = sum((x - m)**2 for x in results) / len(results)
+print("Variance is: " + str(var))
+
+# as function
+def variance(numbers):
+    m = sum(numbers) / len(numbers)
+    var = sum((x - m)**2 for x in numbers) / len(numbers)
+    return var
+
+data2 = [49, 60, 59, 20, 42, 36, 54, 83, 7, 8]
+variance = variance(data2)
+print(variance)
