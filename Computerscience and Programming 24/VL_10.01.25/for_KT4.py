@@ -1,7 +1,5 @@
 import numpy as np
 
-# funktionsdefinitionen & argsort
-
 # average from scratch
 list1 = [3, 5, 7, 11, 13]
 for num in list1:
@@ -73,3 +71,6 @@ def variance(numbers):
 data2 = [49, 60, 59, 20, 42, 36, 54, 83, 7, 8]
 variance = variance(data2)
 print(variance)
+
+# funktionsdefinitionen & argsort
+...
