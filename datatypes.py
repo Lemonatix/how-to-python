@@ -7,7 +7,7 @@ x = 3.14
 # complex complex()
 x = 3+4j
 
-# String str()
+# string str()
 x = "Hello World"
 
 # list list()
