@@ -23,7 +23,7 @@ Follow these instructions to clone this repository to your local machine. I will
 #### Linux/Windows/macOS
 
 1. Open a terminal.
-2. Navigate to the directory where you want to clone the project. Either in your explorer/file manager, i.e for linux:
+2. Navigate to the directory where you want to clone the project. Either in your explorer/file manager, e.g for linux:
 
    ```bash
    cd /home/user/my-python-project
