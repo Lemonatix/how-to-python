@@ -8,10 +8,28 @@ def mw(lists):
     return sum(lists) / len(lists)
 
 average_values = mw(values)
-print(average_values)
+# print(average_values)
 
 # print(mw(values))
 
 array = np.array([1, 2, 3, 4, 5])
 mittelwert = sum(array) / len(array)
-print(mittelwert)
+# print(mittelwert)
+
+list0 = [34, 13, 3, 21, 8, 5, 2, 1] 
+# print(len(list0))
+# print(np.median(list0))
+
+def median(numbers):
+    numbers.sort()
+    if len(numbers) % 2 == 0:
+        median1 = numbers[len(numbers) // 2]
+        median2 = numbers[(len(numbers) // 2) - 1]
+        median = (median1 + median2) / 2
+    else:
+        median = numbers[len(numbers) // 2]
+    return median
+
+list0 = [34, 13, 3, 21, 8, 5, 2, 1]
+print(median(list0))
+
