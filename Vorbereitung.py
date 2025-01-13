@@ -33,3 +33,13 @@ def median(numbers):
 list0 = [34, 13, 3, 21, 8, 5, 2, 1]
 print(median(list0))
 
+# variance from scratch
+list0 = [34, 13, 3, 21, 8, 5, 2, 1]
+print(np.var(list0))
+
+def variance(numbers):
+    m = sum(numbers) / len(numbers)
+    var = sum((x - m)**2 for x in numbers) / len(numbers)
+    return var
+
+print(variance(list0))
