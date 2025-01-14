@@ -10,3 +10,9 @@ def calculation(arr):
     return m, v, dict # dict funktioniert hier, ist allgemein aber problematisch
 
 print(calculation(arr1))
+
+# als zweizeiler:
+def calc(arr):
+    return {"Mittelwert": sum(arr.flatten()) / len(arr.flatten()) , "Varianz": sum((x - sum(arr.flatten()) / len(arr.flatten())) ** 2 for x in arr.flatten()) / (len(arr.flatten()) - 1)}
+
+print(calc(arr1))
