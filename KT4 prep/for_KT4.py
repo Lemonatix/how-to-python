@@ -102,3 +102,26 @@ def modus(daten):
 
 daten = [1, 2, 2, 3, 3, 3, 4, 4, 5]
 print("Modus:", modus(daten))
+
+# R^2 score
+def r2_score(y, y_pred):
+    mittelwert_y = sum(y) / len(y)
+    ss_tot = sum((yi - mittelwert_y) ** 2 for yi in y)
+    ss_res = sum((yi - yi_pred) ** 2 for yi, yi_pred in zip(y, y_pred))
+    return 1 - (ss_res / ss_tot)
+
+y = [3, 5, 7, 9, 11]
+y_pred = [2.8, 5.1, 7.2, 8.9, 11.05]
+
+print("R²-Score:", r2_score(y, y_pred))
+
+# z-score
+def z_scores(daten):
+    mittelwert = sum(daten) / len(daten)
+    varianz = sum((x - mittelwert) ** 2 for x in daten) / len(daten)
+    std_abw = varianz ** 0.5
+    return [(x - mittelwert) / std_abw for x in daten]
+
+# Beispiel
+daten = [10, 12, 23, 23, 16, 23, 21, 16]
+print("Z-Scores:", z_scores(daten))
