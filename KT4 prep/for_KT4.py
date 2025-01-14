@@ -72,4 +72,33 @@ variance = variance(data2)
 print(variance)
 
 # funktionsdefinitionen & argsort
-...
+def perzentil(daten, p):
+    daten.sort()
+    n = len(daten)
+    pos = p / 100 * (n-1)
+    unten = int(pos)
+    oben = unten + 1
+    if oben >= n:
+        return daten[unten]
+    rest = pos - unten
+    return daten[unten] + rest * (daten[oben] - daten[unten])
+
+daten = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+print("25. Perzentil:", perzentil(daten, 25))
+print("50. Perzentil (Median):", perzentil(daten, 50))
+print("75. Perzentil:", perzentil(daten, 75))
+
+# Modus von Hand
+def modus(daten):
+    häufigkeit = {}
+    for wert in daten:
+        if wert in häufigkeit:
+            häufigkeit[wert] +=1
+        else:
+            häufigkeit[wert] = 1
+    max_häufigkeit = max(häufigkeit.values())
+    moden = [k for k, v in häufigkeit.items() if v == max_häufigkeit]
+    return moden
+
+daten = [1, 2, 2, 3, 3, 3, 4, 4, 5]
+print("Modus:", modus(daten))
