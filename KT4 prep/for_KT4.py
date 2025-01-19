@@ -71,7 +71,7 @@ data2 = [49, 60, 59, 20, 42, 36, 54, 83, 7, 8]
 variance = variance(data2)
 print(variance)
 
-# funktionsdefinitionen & argsort
+# function definition & argsort
 def perzentil(daten, p):
     daten.sort()
     n = len(daten)
@@ -88,7 +88,7 @@ print("25. Perzentil:", perzentil(daten, 25))
 print("50. Perzentil (Median):", perzentil(daten, 50))
 print("75. Perzentil:", perzentil(daten, 75))
 
-# Modus von Hand
+# mode from scratch
 def modus(daten):
     häufigkeit = {}
     for wert in daten:
@@ -122,6 +122,6 @@ def z_scores(daten):
     std_abw = varianz ** 0.5
     return [(x - mittelwert) / std_abw for x in daten]
 
-# Beispiel
+# example
 daten = [10, 12, 23, 23, 16, 23, 21, 16]
 print("Z-Scores:", z_scores(daten))
