@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-
 # 1) Kugel-Plot-Funktion
 def plot_sphere(ax, center, radius=0.4, color='C0', alpha=1.0, resolution=12):
     u = np.linspace(0, 2*np.pi, resolution)
@@ -12,7 +11,6 @@ def plot_sphere(ax, center, radius=0.4, color='C0', alpha=1.0, resolution=12):
     y = center[1] + radius * np.outer(np.sin(u), np.sin(v))
     z = center[2] + radius * np.outer(np.ones_like(u), np.cos(v))
     ax.plot_surface(x, y, z, color=color, alpha=alpha, linewidth=0)
-
 
 # 2) Dreiecksschicht (oben/unten): 6 Kugeln in 1-2-3
 def triangular_6_layer(z, pitch=0.8):
@@ -26,7 +24,6 @@ def triangular_6_layer(z, pitch=0.8):
             coords.append((xij, yj, z))
     return coords
 
-
 # 3) Hexagon + Zentralkugel in mittlerer Ebene
 def circle_points_z(z, r, n=6, offset_deg=0.0):
     coords = []
@@ -38,12 +35,10 @@ def circle_points_z(z, r, n=6, offset_deg=0.0):
         coords.append((x, y, z))
     return coords
 
-
 # 4) Parameter
 pitch = 0.8      
 sphere_rad = 0.4 
 z_offset = 0.8   
-
 
 # 5) Schichten: A-B-A
 z_top = +z_offset
@@ -65,7 +60,6 @@ center_B = (0, 0.4, z_mid)  # Zentralkugel
 positions_B_mid = shifted_hex + [center_B]
 
 positions_A_bot = triangular_6_layer(z=z_bot, pitch=pitch)
-
 
 # 6) Plot
 fig = plt.figure(figsize=(8,6))
