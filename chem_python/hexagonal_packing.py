@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 # helper function
-def plot_sphere(ax, center, radius=0.5, color='C0', alpha=1.0, resolution=15):
+def plot_sphere(ax, center, radius=0.5, color='C0', alpha=1.0, resolution=12):
     """
     Zeichnet eine Kugel mit Mittelpunkt 'center' und Radius 'radius'
     in das 3D-Plot 'ax' (Axes3D).
@@ -16,7 +16,6 @@ def plot_sphere(ax, center, radius=0.5, color='C0', alpha=1.0, resolution=15):
     z = center[2] + radius * np.outer(np.ones_like(u), np.cos(v))
 
     ax.plot_surface(x, y, z, color=color, alpha=alpha, linewidth=0)
-
 
 # parameters for sphere packing
 N_x = 5      # Anzahl Kugeln in x-Richtung
@@ -43,7 +42,6 @@ for j in range(N_y):
         zA = 0.0
         positions_A1.append((xA, yA, zA))
 
-
 # 2) Schicht B (mittig, z=z_offset)
 # => Lateral zusätzlich um (0.5, sqrt(3)/6)
 for j in range(N_y):
@@ -52,7 +50,6 @@ for j in range(N_y):
         yB = (np.sqrt(3)/2) * j * pitch + (np.sqrt(3)/6)*pitch
         zB = z_offset
         positions_B.append((xB, yB, zB))
-
 
 # 3) Schicht A (oben, z=2*z_offset)
 #    => Gleiche (x,y) wie A1, aber z=2*z_offset
@@ -63,14 +60,12 @@ for j in range(N_y):
         zA2 = 2.0 * z_offset
         positions_A2.append((xA2, yA2, zA2))
 
-
 # Alles in einer Liste sammeln (nur der Übersicht halber)
 
 all_positions = (positions_A1 + positions_B + positions_A2)
 
-# --------------------------------------------
+
 # Plotten
-# --------------------------------------------
 fig = plt.figure(figsize=(8,6))
 ax = fig.add_subplot(111, projection='3d')
 
@@ -111,6 +106,11 @@ ax.set_xlabel('x')
 ax.set_ylabel('y')
 ax.set_zlabel('z')
 ax.set_title('Dreischichtige (ABA) Kugelpackung')
+
+try:
+    ax.set_box_aspect([1, 1, 1])  # macht die Achsen isotrop => Kugeln wirken rund
+except:
+    pass  # ältere matplotlib-Versionen ignorieren das
 
 plt.tight_layout()
 plt.show()
