@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 # 1) Kugel-Plot-Funktion
-def plot_sphere(ax, center, radius=0.4, color='C0', alpha=1.0, resolution=12):
+def plot_sphere(ax, center, radius=0.4, color='C0', alpha=1.0, resolution=12): # Reduce resolution if rendering and rotation seems too slow
     u = np.linspace(0, 2*np.pi, resolution)
     v = np.linspace(0, np.pi, resolution)
     
