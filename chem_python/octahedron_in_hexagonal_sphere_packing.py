@@ -67,20 +67,20 @@ ax = fig.add_subplot(111, projection='3d')
 
 # (A) Obere Schicht (A) => T0..T5
 for i, pos in enumerate(positions_A_top):
-    plot_sphere(ax, pos, sphere_rad, color='cornflowerblue', alpha=0.4)
+    plot_sphere(ax, pos, sphere_rad, color='cornflowerblue', alpha=0.3)
     ax.text(pos[0]+0.05, pos[1]+0.05, pos[2]+0.05, f"T{i}", fontsize=12, color='black')
 
 # (B) Mittlere Schicht (B) => M0..M5 (Ring), M6 (Zentralkugel)
 for i, pos in enumerate(shifted_hex):
-    plot_sphere(ax, pos, sphere_rad, color='darkorange', alpha=0.4)
+    plot_sphere(ax, pos, sphere_rad, color='darkorange', alpha=0.3)
     ax.text(pos[0]+0.05, pos[1]+0.05, pos[2]+0.05, f"M{i}", fontsize=12, color='black')
 
-plot_sphere(ax, center_B, sphere_rad, color='red', alpha=0.4)
+plot_sphere(ax, center_B, sphere_rad, color='red', alpha=0.3)
 ax.text(center_B[0]+0.05, center_B[1]+0.05, center_B[2]+0.05, "M6", fontsize=12, color='black')
 
 # (C) Untere Schicht (A, grün) => ohne Beschriftung
 for pos in positions_A_bot:
-    plot_sphere(ax, pos, sphere_rad, color='seagreen', alpha=0.4)
+    plot_sphere(ax, pos, sphere_rad, color='seagreen', alpha=0.3)
 
 # 7) Oktaeder nach Vorgabe
 # Oberes Dreieck: T4, T1, T2
