@@ -9,7 +9,7 @@ Also: If anything needs more explanation feel free to open an issue, discussion 
 
 ## Getting Started
 
-Follow these instructions to clone this repository to your local machine. I will explain how to set it up in VSCode, any other IDE should be similar.
+Follow these instructions to clone this repository to your local machine. I will explain how to set it up in VSCode. Setup for any other IDE should be similar.
 
 ### Prerequisites
 
