@@ -7,7 +7,7 @@ def calculation(arr):
     m = sum(arr) / len(arr)  # Mittelwert
     v = sum((x - m) ** 2 for x in arr) / (len(arr) - 1)  # Varianz
     results = {"Mittelwert": m, "Varianz": v}
-    return m, v, results # dict funktioniert hier, ist allgemein aber problematisch
+    return results
 
 print(calculation(arr1))
 
