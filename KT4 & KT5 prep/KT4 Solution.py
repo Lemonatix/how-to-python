@@ -6,9 +6,8 @@ def calculation(arr):
     arr = arr.flatten()  # Ergebnis speichern
     m = sum(arr) / len(arr)  # Mittelwert
     v = sum((x - m) ** 2 for x in arr) / (len(arr) - 1)  # Varianz
-    results = {"Mittelwert": m, "Varianz": v}
-    return results
-
+    return {"Mittelwert": m, "Varianz": v}
+    
 print(calculation(arr1))
 
 # als zweizeiler:
