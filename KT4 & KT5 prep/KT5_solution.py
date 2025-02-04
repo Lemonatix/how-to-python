@@ -7,7 +7,7 @@ b.append(a.pop(np.argmin(a)))
 b.append(a.pop(np.argmax(a)))
 print(b)
 
-closest_index = int(np.argmin(np.abs(np.array(a) - sum(a) / len(a))))
+closest_index = int(np.argmin(np.abs(np.array(a) - np.mean(a))))
 ind.append(closest_index)
 
 print(np.mean(a))
