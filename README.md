@@ -7,6 +7,8 @@ note: Feel free to still compile the code yourself and check the result, even if
 
 Also: If anything needs more explanation feel free to open an issue, discussion or contact me directly (via the email referenced on my profile). Or contribute directly (see bottom of README).
 
+**As of February 2025, this course is complete regarding its content.**
+
 ## Getting Started
 
 Follow these instructions to clone this repository to your local machine. I will explain how to set it up in VSCode. Setup for any other IDE should be similar.
