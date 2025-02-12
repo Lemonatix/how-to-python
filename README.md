@@ -1,4 +1,4 @@
-# How-to-python
+ # How-to-python
 
 This project lays a foundation for the usage and utilities of python. It is like a course that you can go through at your own speed. 
 As I created this course, I solidified my knowledge about python. I hope that you will be able to learn and apply python after going through this course. 
@@ -66,6 +66,6 @@ Thank you in advance and have fun coding!
 
 ## Acknowledgments
 
-Some parts of this project are inspired by the Programming and Data Science course taught by [Prof. Helge S. Stein](https://github.com/helgestein) at TUM. All code and materials are my own implementations based on some of the concepts and premade files from and covered by Prof. Stein  in the lecture series. I changed and extended some code from the lectures to the extent I thought is relevant and helpful. 
+Some parts of this project are inspired by the Programming and Data Science course taught by [Prof. Helge S. Stein](https://github.com/helgestein) at TUM. All code and materials are my own implementations based on some of the concepts and premade files from and covered by Prof. Stein  in the lecture series (That's the reason for a lot of python usage regarding topics of chemistry). I changed and extended some code from the lectures to the extent I thought is relevant and helpful. 
 
 This course was also created with the help of [Python Examples](https://pythonexamples.org/python/).
