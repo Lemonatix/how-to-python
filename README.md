@@ -7,7 +7,7 @@ note: Feel free to still compile the code yourself and check the result, even if
 
 Also: If anything needs more explanation feel free to open an issue, discussion or contact me directly (via the email referenced on my profile). Or contribute directly (see bottom of README).
 
-**As of February 2025, this course is complete regarding its content.**
+**As of February 2025 this course is complete regarding its content.**
 
 ## Getting Started
 
