@@ -3,7 +3,7 @@
 This project lays a foundation for the usage and utilities of python. It is like a course that you can go through at your own speed. 
 As I created this course, I solidified my knowledge about python. I hope that you will be able to learn and apply python after going through this course. 
 
-note: Feel free to still compile the code yourself and check the result, even if a comment with the result is given.
+note: Feel free to still compile the code yourself and check the result, even if a comment with the output is given.
 
 Also: If anything needs more explanation feel free to open an issue, discussion or contact me directly (via the email referenced on my profile). Or contribute directly (see bottom of README).
 
