@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 # helper function
-def plot_sphere(ax, center, radius=0.5, color='C0', alpha=1.0, resolution=12):
+def plot_sphere(ax, center, radius=0.5, color='C0', alpha=1.0, resolution=8):
     """
     Zeichnet eine Kugel mit Mittelpunkt 'center' und Radius 'radius'
     in das 3D-Plot 'ax' (Axes3D).
