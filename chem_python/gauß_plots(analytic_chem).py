@@ -7,7 +7,7 @@ def normal_pdf(x, mu, sigma):
 x = np.linspace(-8, 8, 1200)
 ref = 0.0
 
-# (Titel, Mittelwert μ, Std.-Abw. σ)
+# (Titel, Mittelwert, Std.-Abw.)
 cases = [
     ("genau (richtig & präzise)", 0.0, 0.35),
     ("richtig aber unpräzise",   0.0, 1.60),
